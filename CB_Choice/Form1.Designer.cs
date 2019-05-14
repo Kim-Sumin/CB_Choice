@@ -60,6 +60,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "추가";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lblResult
             // 
@@ -83,6 +84,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "메뉴 선택 추가";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
