@@ -15,5 +15,10 @@ namespace CB_Choice
         {
             InitializeComponent();
         }
+
+        private void cbList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
